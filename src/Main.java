@@ -16,10 +16,11 @@ public class Main {
 			System.out.println("-Le Point B mes coordonnées sont : B"+B);
 			System.out.println("-Le Point C mes coordonnées sont : C"+C);
 			
+			System.out.println("---------------------------------------------------------------------- ");
 			
 			System.out.println("* Donner les images de A , B et C ");
-			System.out.println("-L'image de A est : A-1"+A);
-			System.out.println("-L'image de B est : B-1"+B);
-			System.out.println("-L'image de C est : C-1"+C);
+			System.out.println("-L'image de A est : A-1"+A.imagePoint());
+			System.out.println("-L'image de B est : B-1"+B.imagePoint());
+			System.out.println("-L'image de C est : C-1"+C.imagePoint());
 		}
 }
