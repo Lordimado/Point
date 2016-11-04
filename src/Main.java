@@ -6,9 +6,11 @@ public class Main {
 			double lu=clavier.nextDouble();*/
 			
 			Point A =new Point();
-			Point B =new Point(5);
-			Point C =new Point(3,8);
-			
+			Point B =new Point();
+			Point C =new Point();
+			A.mesCoord();
+			B.mesCoord();
+			C.mesCoord();
 			System.out.println("* Créer 3 Points dans l'espace on utilisant 3 consctructeur différents ");
 			System.out.println("-Le Point A mes coordonnées sont : A"+A);
 			System.out.println("-Le Point B mes coordonnées sont : B"+B);
