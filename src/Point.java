@@ -1,5 +1,7 @@
-
+import java.util.*;
 public class Point {
+	Scanner key=new Scanner(System.in);
+	double C;
 		private double abcisse;
 		private double ordonnee;
 
@@ -35,7 +37,15 @@ public class Point {
 		public void setOrdonnee(double ordonnee){
 			this.ordonnee=ordonnee;
 		}
-		
+	
+		public void mesCoord(){
+			System.out.println("Donner l'Abcisse du point ");
+			C=key.nextDouble();
+			setAbcisse(C);
+			System.out.println("Donner l'Ordonnee du point ");
+			C=key.nextDouble();
+			setOrdonnee(C);
+		}
 		 public Point imagePoint() {
 		        return new Point(-abcisse, ordonnee);
 		  }
